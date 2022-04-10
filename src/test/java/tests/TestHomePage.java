@@ -24,7 +24,7 @@ public class TestHomePage extends BasePage {
     @Test
     public void verifyHomePageTitle() {
         //just call the login page , which will make the title page works...
-        Assert.assertEquals(homePage.getHomePageTitle(),prop.getProperty("HOME_PAGE_TITLE"));
+        Assert.assertEquals(homePage.getHomePageTitle(),prop.getProperty("HOME_PAGE_TITL"));
     }
 
     @AfterMethod
